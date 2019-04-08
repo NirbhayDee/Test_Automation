@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="intBankingV1">
+<!-- listeners>
+<listener class-name="com.inetBanking.utilities.Reporting"/>
+</listeners -->
+
+	<test name="tig tog">
+	
+		<parameter  name = "browser" value= "chrome"/>
+			<classes>
+				<!--class name= "com.inetBanking.testCase.TC_LoginTest_001"/-->
+				<class name= "com.inetBanking.testCase.TC_LoginPage_DDT_002"/>
+			</classes>
+	</test>
+</suite>
