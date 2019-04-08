@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [navaccessories.com]">
+  <parameter name="Browser" value="firefox"/>
+  <test name="Test(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="navaccessories.com.testCasse.Sign_Up_001">
+        <methods>
+          <include name="Registration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- navaccessories.com.testCasse.Sign_Up_001 -->
+      <class name="navaccessories.com.testCasse.Login_001">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- navaccessories.com.testCasse.Login_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [navaccessories.com] -->

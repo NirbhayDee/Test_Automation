@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="navaccessories.com">
+
+<!-- listeners>
+<listener class-name="com.inetBanking.utilities.Reporting"/>
+</listeners -->
+
+
+
+<listeners>
+<listener class-name="navaccessories.com.utilities.ReportConfig"/>
+</listeners>
+
+  <test name="Test">
+  <parameter  name = "Browser" value= "chrome"/>
+  <!-- parameter  name = "Browser" value= "firefox"/ -->
+    <classes>
+      <class name="navaccessories.com.testCasse.Sign_Up_001"/>
+      <class name="navaccessories.com.testCasse.Login_001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

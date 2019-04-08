@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [navaccessories.com by packages]">
+  <test name="navaccessories.com.testCasse(failed)">
+    <classes>
+      <class name="navaccessories.com.testCasse.Sign_Up_001">
+        <methods>
+          <include name="Registration"/>
+        </methods>
+      </class> <!-- navaccessories.com.testCasse.Sign_Up_001 -->
+      <class name="navaccessories.com.testCasse.Login_001">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- navaccessories.com.testCasse.Login_001 -->
+    </classes>
+  </test> <!-- navaccessories.com.testCasse(failed) -->
+</suite> <!-- Failed suite [navaccessories.com by packages] -->
